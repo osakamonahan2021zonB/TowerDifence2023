@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce8bb093eb828e84090c45f033159db4, type: 3}
+  m_Name: BowGun
+  m_EditorClassIdentifier: 
+  Grade: 1
+  cost: 16
+  HP: 3
+  Icon: {fileID: 21300000, guid: 02168a099a2cc4748be6a4b4042b40a3, type: 3}
+  CanTdestoroy: 0
+  levelUps: []
+  levelEffect: {fileID: 1459862227383078, guid: 2d8de81c37d65e647899d494ad1af65f,
+    type: 3}
+  blockType: 1
+  attackType: 0
+  Damage: 7
+  Knockback: {x: 0, y: 0, z: 0}
+  Range: 2
+  RangeRate: 1.7
+  AttackRate: 2.6
+  Bullet: {fileID: 6731487609537980141, guid: fd211be9c71a30340995d523a2be6601, type: 3}
+  Shoteffect: {fileID: 0}
+  effectsize: 0.7
+  BulletSpeed: 8
+  explain: "\u77E2\u3092\u653E\u3064\u3000\u30BF\u30EC\u30C3\u30C81\u3064\u5206\u307E\u3067\u9AD8\u3055\u3092\u8D85\u3048\u308B\u3053\u3068\u304C\u3067\u304D\u308B"
+  HitEffect: {fileID: 5019907360797040720, guid: b9aba7eaf2c89d54b8f531527a339f54,
+    type: 3}
+  effectSize: 1.2

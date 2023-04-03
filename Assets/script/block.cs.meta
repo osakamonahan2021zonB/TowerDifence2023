@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 7341bdff93343c948ac5851f09f86a1f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - overlap: {instanceID: 0}
+  - blockdata: {instanceID: 0}
+  - canondata: {instanceID: 0}
+  - trapdata: {instanceID: 0}
+  - invinci: {fileID: 506488794187351966, guid: 85eb8ff7016e7d34e84e6ccd19ecfcb6,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

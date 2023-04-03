@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: ce8bb093eb828e84090c45f033159db4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Icon: {instanceID: 0}
+  - levelEffect: {fileID: 1459862227383078, guid: 2d8de81c37d65e647899d494ad1af65f,
+      type: 3}
+  - Bullet: {instanceID: 0}
+  - Shoteffect: {instanceID: 0}
+  - HitEffect: {fileID: 5019907360797040720, guid: b9aba7eaf2c89d54b8f531527a339f54,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

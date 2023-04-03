@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce8bb093eb828e84090c45f033159db4, type: 3}
+  m_Name: CutterTrap
+  m_EditorClassIdentifier: 
+  Grade: 1
+  cost: 15
+  HP: 9
+  Icon: {fileID: 21300000, guid: 7a269a60b11768d439aa4eb8bac1f604, type: 3}
+  CanTdestoroy: 0
+  levelUps:
+  - name: TogeTrap
+    Nextobj: {fileID: 429640409874812877, guid: 95ee8c454ae788f4d82a7d4f33318571,
+      type: 3}
+  - name: BasicCanon
+    Nextobj: {fileID: 873964362783510875, guid: 11bc23e6d4948014fb150db9c0f72edf,
+      type: 3}
+  levelEffect: {fileID: 1459862227383078, guid: 2d8de81c37d65e647899d494ad1af65f,
+    type: 3}
+  blockType: 2
+  attackType: 1
+  Damage: 7
+  penetration: 0
+  Knockback: {x: 0, y: 0.1, z: 1}
+  Range: 2
+  RangeRate: 0
+  AttackRate: 1.5
+  Bullet: {fileID: 0}
+  Shoteffect: {fileID: 0}
+  effectsize: 0.7
+  BulletSpeed: 0
+  explain: "\u524D\u65B9\u3092\u5207\u308A\u4ED8\u3051\u308B\u30C8\u30E9\u30C3\u30D7\u3000\u7BC4\u56F2\u653B\u6483"
+  HitEffect: {fileID: 5019907360797040720, guid: b9aba7eaf2c89d54b8f531527a339f54,
+    type: 3}
+  effectSize: 1.2

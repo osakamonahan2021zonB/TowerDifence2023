@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce8bb093eb828e84090c45f033159db4, type: 3}
+  m_Name: Base
+  m_EditorClassIdentifier: 
+  Grade: 5
+  cost: 0
+  HP: 20
+  Icon: {fileID: 21300000, guid: 999c389e2074df14a884b18c2235dc24, type: 3}
+  CanTdestoroy: 1
+  levelUps: []
+  levelEffect: {fileID: 1459862227383078, guid: 2d8de81c37d65e647899d494ad1af65f,
+    type: 3}
+  blockType: 0
+  attackType: 0
+  Damage: 0
+  Knockback: {x: 0, y: 0, z: 0}
+  Range: 0
+  RangeRate: 0
+  AttackRate: 0
+  Bullet: {fileID: 0}
+  Shoteffect: {fileID: 0}
+  effectsize: 0.7
+  BulletSpeed: 0
+  explain: "\u62E0\u70B9\u3067\u3059\u3053\u3053\u3092\u58CA\u3055\u308C\u308B\u3068\u8CA0\u3051\u307E\u3059"
+  HitEffect: {fileID: 5019907360797040720, guid: b9aba7eaf2c89d54b8f531527a339f54,
+    type: 3}
+  effectSize: 1.2

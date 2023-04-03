@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce8bb093eb828e84090c45f033159db4, type: 3}
+  m_Name: NailCanon
+  m_EditorClassIdentifier: 
+  Grade: 1
+  cost: 11
+  HP: 5
+  Icon: {fileID: 21300000, guid: 3b402c49f051fe14fa8a59312d2e7207, type: 3}
+  CanTdestoroy: 0
+  levelUps: []
+  levelEffect: {fileID: 1459862227383078, guid: 2d8de81c37d65e647899d494ad1af65f,
+    type: 3}
+  blockType: 1
+  attackType: 3
+  Damage: 4
+  penetration: 1
+  Knockback: {x: 0.2, y: 0, z: 0.2}
+  Range: 2.5
+  RangeRate: 1.1
+  AttackRate: 0.5
+  Bullet: {fileID: 7345033085131606606, guid: 2be52461dac9cea40b708f5938a79e4e, type: 3}
+  Shoteffect: {fileID: 100006, guid: 25ee3588839aa5b40aed17aea02d332c, type: 3}
+  effectsize: 0.7
+  BulletSpeed: 10
+  explain: "\u8CAB\u901A\u80FD\u529B\u3092\u3082\u3064\u30BF\u30EC\u30C3\u30C8"
+  HitEffect: {fileID: 5019907360797040720, guid: b9aba7eaf2c89d54b8f531527a339f54,
+    type: 3}
+  effectSize: 1.2
