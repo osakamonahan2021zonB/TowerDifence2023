@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
@@ -111,10 +111,6 @@ public class manager_block : MonoBehaviour
             wayvalues[number-1].Hight = Hight;
             wayvalues[number-1].BlockAp = BlockAp;
             reloadpath(number);
-        }
-        for(int i = 0; i < 3; i++)
-        {
-            Debug.Log("wayvalues"+i+";"+wayvalues[i].Hight);
         }
     }
 

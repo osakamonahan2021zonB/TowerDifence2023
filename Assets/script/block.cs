@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -70,7 +70,6 @@ public class block : MonoBehaviour
             {
                 _renderer[0] = GetComponent<Renderer>();
             }
-            original = new Material(_renderer[0].material);
             foreach (Renderer r in _renderer)
             {r.material.EnableKeyword("_EMISSION"); }
         }
@@ -103,7 +102,6 @@ public class block : MonoBehaviour
             {
                 _renderer[0] = GetComponent<Renderer>();
             }
-            original = new Material(_renderer[0].material);
             foreach (Renderer r in _renderer)
             { r.material.EnableKeyword("_EMISSION"); }
         }
